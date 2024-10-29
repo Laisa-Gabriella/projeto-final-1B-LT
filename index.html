@@ -1,15 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prime</title>
+    <title>Cine&Séries - Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1>catalogo</h1>
-            <p>melhores series de acao fictisia</p>   
-        <h2>Senhor dos aneis: anies do poder </h2>
-            <p>senhor dois anies do poder e uma serie</p>
 
+    <!-- Cabealho do Site -->
+    <header>
+        <h1>Primezinha</h1>
+        <p>melfores filmes terror</p>
+        <!-- Barra de Pesquisa -->
+        <input type="text" id="searchInput" placeholder="Buscar filmes e séries..." onkeyup="searchMovies()">
+    </header>
+
+    <!-- Barra de Navegação -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        <h2>Últimos Lançamentos</h2>
+        <div class="movie-list" id="movieList">
+            <!-- Card do Filme 1 -->
+            <div class="movie-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffilmow.com%2Fo-exorcismo-de-emily-rose-t5631%2F&psig=AOvVaw0d-luRlYKQGe6XXAWmxnH8&ust=1730329031914000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiFqpTYtIkDFQAAAAAdAAAAABAE" alt="Poster do Filme 1">
+                <h3>O exorcismo de Emily Rose</h3>
+                <p>Terror,crime</p>
+                <p>2005</p>
+            </div>
+            <!-- Card do Filme 2 -->
+            <div class="movie-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.adorocinema.com%2Ffilmes%2Ffilme-212263%2F&psig=AOvVaw0PCn3VTWnmiST7MowyZlSf&ust=1730329428279000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiV58nZtIkDFQAAAAAdAAAAABAE" alt="Poster do Filme 2">
+                <h3>Livrai-nos do mal</h3>
+                <p>terror,ação</p>
+                <p>2014</p>
+            </div>
+            <!-- Card do Filme 3 -->
+            <div class="movie-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.adorocinema.com%2Ffilmes%2Ffilme-287490%2F&psig=AOvVaw2mqE3v3YDSKArieCZdXD-G&ust=1730329461800000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiq093ZtIkDFQAAAAAdAAAAABAE" alt="Poster do Série 1">
+                <h3>o exorcismo do papa</h3>
+                <p>terror,ação</p>
+                <p>2023</p>
+            </div>
+            <!-- Card do Filme 4 -->
+            <div class="movie-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.netflix.com%2Fbr%2Ftitle%2F81085815&psig=AOvVaw2Xhz8tVTEMqoT6WJ3DNX-O&ust=1730329873270000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjwhaLbtIkDFQAAAAAdAAAAABAE" alt="Poster do Filme 1">
+                <h3>vozes</h3>
+                <p>Terror,drama</p>
+                <p>2020</p>
+            </div>
+            <!-- Card do Filme 5 -->
+            <div class="movie-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.adorocinema.com%2Ffilmes%2Ffilme-212263%2F&psig=AOvVaw0PCn3VTWnmiST7MowyZlSf&ust=1730329428279000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiV58nZtIkDFQAAAAAdAAAAABAE" alt="Poster do Filme 2">
+                <h3>Livrai-nos do mal</h3>
+                <p>terror,ação</p>
+                <p>2014</p>
+            </div>
+            <!-- Card do Filme 6 -->
+            <div class="movie-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.adorocinema.com%2Ffilmes%2Ffilme-287490%2F&psig=AOvVaw2mqE3v3YDSKArieCZdXD-G&ust=1730329461800000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiq093ZtIkDFQAAAAAdAAAAABAE" alt="Poster do Série 1">
+                <h3>o exorcismo do papa</h3>
+                <p>terror,ação</p>
+                <p>2023</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2023 Cine&Séries. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
